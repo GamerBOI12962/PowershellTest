@@ -13,7 +13,6 @@ function DisplayOperatingSystem {Write-Output "Your operating system is $os"}
 if (Get-Variable -Name IsWindows -ErrorAction SilentlyContinue) {$score=$score+1}
 if (Get-Variable -Name IsMacOs -ErrorAction SilentlyContinue) {$score=$score+1}
 if (Get-Variable -Name IsLinux -ErrorAction SilentlyContinue) {$score=$score+1}
-Write-Output $score
 if ($score -gt 0) {if ($IsWindows) {$os="Windows"} elseif ($IsMacOs) {$os="MacOS"} elseif ($IsLinux) {$os="Linux"}}
 if ($score -lt 1) {$os="Windows"}
 DisplayOperatingSystem
