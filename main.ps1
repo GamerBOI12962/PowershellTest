@@ -1,3 +1,6 @@
+# This is my PowerShell program for testing purposes, you can directly execute it
+# in PowerShell with iex, type irm https://github.com/GamerBOI12962/PowershellTest/raw/refs/heads/main/main.ps1 | iex
+# in the PowerShell terminal to run it.
 Write-Output "Hello, World!"
 $oranges=15
 $bananas=36
